@@ -1,7 +1,8 @@
 # PHP-Basics
-some basics of PHP 
+some basics of PHP | And also solve the assignments
 <br>
 [ 20 From 105 ]
+<br>
 ### Introduction, Syntax And Fundamentals
 
 -  01 - Introduction And Important Information ?
