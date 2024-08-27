@@ -900,6 +900,138 @@ echo "<br>";
 echo __FILE__;  // file 
 echo "<br>";
 echo __DIR__;  // folder 
+echo "<br>";
+//========================================================================//
+
+
+# Operators  // used to preform operations on value
+// Assignment Oprators // used to write value to another 
+/*
+باختصار ياعزيزي 
+بنضيف قيمة علي القيمه القديمة بدون استبدالها ودي بتبقي في العمليا الحسابية
+زي في بايثون او سي  عادي 
+مثال بابيثون 
+x = 5 
+x = x +5 or x+=5
+معناها اني ضيفت 5 علي ال5 القديمه فاقيمة الاكس هتبقي 10 
+وتقدر تطبق كل دا علي كل انواع العلميات الحسابية 
+*/
+
+
+// 1=> Addition $var = $var + new value || OR ||  $var += new value
+$x = 5 ; 
+
+echo $x = $x+5;  // output  10
+#or
+echo "<br>";
+echo $x += 5;  // output 15 
+echo "<br>";
+
+# Subtraction  $var = $var - new value || OR ||  $var -= new value
+
+$y = 20;
+echo $y = $y - 10;    // output 10
+#or
+echo "<br>";
+echo $y -= 5;       // output 5
+echo "<br>";
+
+// You can continue to apply the same words to all mathematical operations in the same way.
+// تقدر بقا تطبق نفس الكلام ده علي جميع العمليات الحسابيه بنفس الطريقه 
+/*
+
+Mulitiplication $x *= new value;
+
+Division  $x /= new value;
+
+Modulus  $x% = new value;
+
+Exponentiation  $x** = new value;
+*/
+
+//================================================================//
+
+# Comparsion Operators 
+// used to compare Two value 
+/*
+//////////////////////////
+باختصار ياعزيزي بعمل مقارنه بين قيمتين ودا بيتم عن طريق الــ
+var_dumb() Function
+///////////////////////////////////
+وعندك حاجه اسمها 
+Identucal 
+ودي بتقارن بين القيمة والنوع الاتنين وبرضوا بنستخدملها نفس الفانكشن وكل حاجه 
+الاختلاف بيبقي في ال
+operators بس 
+*/
+
+# Equal == 
+
+var_dump(100==100); // output True 
+
+echo "<br>";
+var_dump(100=="100");  // output True || Because => they have same value even not same type
+echo "<br>"; 
+
+# Not Equal !=   OR  <>
+
+var_dump(100!="100");   // output False
+echo "<br>"; 
+var_dump(100<>"100");    // output False
+echo "<br>"; 
+//======================================//
+# Identical // check value and type
+# Equal ===  |Identical|
+
+var_dump(100 ==="100");   // output False || Because => they have same value but not same type
+echo "<br>"; 
+
+# Not Equal ===   |Not Identical|
+
+var_dump(100 !=="100");   // output True 
+echo "<br>"; 
+//======================================//
+
+/*
+العلامات اللي كلنا عارفنها اللي هي 
+> or >= or < or <=  ,  <=>
+اكبر من >  larger than 
+اكبر من او يساوي  >=   Larger Than Or Equal 
+اصغر من <  smaller Than 
+اصغر من <=  smaller Than Or Equal
+
+دي جديدة اول مره اشوفها وهي 
+<=>  Spacship وبتدي حاجه من تلاته 
+
+1- لو كان الرقم اصغر من فالناتج بيكون سالب واحد  وبيديك نوعه كمان int(-1)
+
+2- لو كان الرقم اكبر من   فالناتج بيكون  واحد  وبيديك نوعه كمان int(1)
+
+2- لو كان الرقم بيساوي  فالناتج بيكون صفر  وبيديك نوعه كمان int(0)
+
+*/
+
+# lerger tahn >
+var_dump(100>50); // output true
+echo "<br>"; 
+var_dump(100>=50); // output true
+echo "<br>"; 
+# smaller than
+var_dump(100<50); // output False
+echo "<br>"; 
+var_dump(100<=100); // output True
+echo "<br>"; 
+
+# <=>  Spacship
+
+var_dump(100<=>100); // output int(0)  |Equal| 
+echo "<br>"; 
+
+var_dump(70<=>100); // output int(-1)   |less tahn |
+echo "<br>"; 
+
+var_dump(170<=>100); // output int(1)  |Greater|
+echo "<br>"; 
 
 
 
