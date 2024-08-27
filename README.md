@@ -32,6 +32,9 @@ some basics of PHP | And also solve the assignments
 ### Operators
 
 - 20 - Arithmetic Operators
+- 21 - Assignment Operators
+- 22 - Comparison Operators Part 1
+- 23 - Comparison Operators Part 2
 
 ## It will be modified daily until the course is completed.
 
