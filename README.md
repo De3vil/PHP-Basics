@@ -35,6 +35,8 @@ some basics of PHP | And also solve the assignments
 - 21 - Assignment Operators
 - 22 - Comparison Operators Part 1
 - 23 - Comparison Operators Part 2
+- 24 - Incrementing & Decrementing Operators
+- 25 - Logical Operators
 
 ## It will be modified daily until the course is completed.
 
